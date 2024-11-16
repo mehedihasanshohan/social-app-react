@@ -18,8 +18,8 @@ const LoginPage = () => {
               alt="auth_illustration"
             />
             <div>
-              <h1 className="mb-3 text-4xl font-bold lg:text-[40px]">Facehook</h1>
-              <p className="max-w-[452px] text-gray-600/95 lg:text-lg">
+              <h1 className="mb-3 text-4xl text-white font-bold lg:text-[40px]">Facehook</h1>
+              <p className="max-w-[452px] text-gray-400 lg:text-lg">
                 Create a social media app with features like, showing the post,
                 post details, reactions, comments and profile.
               </p>
