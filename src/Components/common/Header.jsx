@@ -8,7 +8,8 @@ const Header = () => {
     <div className="container flex flex-col items-center justify-between gap-6 sm:flex-row">
       {/* logo */}
       <Link to="/">
-        <img className="max-w-[100px] rounded-full lg:max-w-[130px]" src="./assets/images/logo.svg" />
+        {/* <img className="max-w-[120px] lg:max-w-[140px]" src="/assets/images/logo.svg" /> */}
+          <h4>Mehedi Hasan Shohan</h4>
       </Link>
       {/* nav links */}
 
@@ -27,10 +28,10 @@ const Header = () => {
         </button> */}
 
         <button className="flex-center !ml-8 gap-3">
-          <span className="text-lg font-medium lg:text-xl">Sumit</span>
-          <img className="max-h-[32px] max-w-[32px] lg:max-h-[44px] lg:max-w-[44px]"
-            src="/assets/images/avatars/avatar_1.png" alt="" />
-          <img className="max-h-[32px] rounded-md max-w-[32px] lg:max-h-[44px] lg:max-w-[44px]"
+          <span className="text-lg font-medium lg:text-xl">Shohan</span>
+          {/* <img className="max-h-[32px] max-w-[32px] lg:max-h-[44px] lg:max-w-[44px]"
+            src="/assets/images/avatars/avatar_1.png" alt="" /> */}
+          <img className="max-h-[32px] rounded-full max-w-[32px] lg:max-h-[44px] lg:max-w-[44px]"
             src="/assets/images/avatars/1.jpg" alt="" />
         </button>
       </div>
